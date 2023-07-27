@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #000;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .hero {
+        height: 780px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+       }
+
+        .hero-link {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: url("str.jpg");
+        background-size: cover;
+        background-position: center;
+        }
+        .categories {
+            background-color: #000;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .category {
+            margin-bottom: 20px;
+        }
+
+        .category h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .category .movies {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .category .movie {
+            width: 200px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .category .movie img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .category .movie h4 {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .header .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: black;
+            color: red;
+            font-size: 28px;
+            font-style: bold;
+            padding: 5px 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 style="color: red;">Netflix</h1>
+        <div class="logo">D</div>
+    </header>
+
+    <section class="hero">
+        <a href="https://www.youtube.com/watch?v=R1ZXOOLMJ8s" class="hero-link"></a>
+    </section>
+
+    <section class="categories">
+        <div class="category">
+            <h3>Action</h3>
+            <div class="movies">
+                <div class="movie">
+                    <a href="https://www.youtube.com/watch?v=4_OM245OfZw" >
+                        <img src="Iron Man 3.jpg" alt="Action Movie 1">
+                    </a>
+                    <h4>Iron Man 3</h4>
+                </div>
+                <div class="movie">
+                    <a href="https://www.youtube.com/watch?v=wevNEqzE6jw">
+                        <img src="Ant MAn.jpg " height = "294px"alt="Action Movie 2">
+                    </a>
+                    <h4>Ant Man 3</h4>
+                </div>
+                <div class="movie">
+                    <a href="https://www.youtube.com/watch?v=X7G1soqzaRA">
+                        <img src="Avengers Endgame.jpeg"height = "294px" alt="Action Movie 3">
+                    </a>
+                    <h4>Avengers Endgame</h4>
+                </div>
+                <div class="movie">
+                    <a href="https://www.youtube.com/watch?v=B6h-kQLQqec">
+                         <img src="Sarrainodu.jpg"height = "294px" alt="Action Movie 3">
+                     </a>
+                    <h4>Sarrainodu</h4>
+                </div>
+                <div class="movie">
+                    <a href="https://www.youtube.com/watch?v=B6h-kQLQqec">
+                        <img src="Krrish 3.jpg"height = "294px" alt="Action Movie 3">
+                    </a>
+                   <h4>Krrish 3</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h3>Comedy</h3>
+            <div class="movies">
+                <div class="movie">
+                    <a href="https://www.youtube.com/watch?v=TIQ5hrfermg">
+                        <img src="Hera Pheri.jpg" height="294px" alt="Comedy Movie 1">
+                    </a>
+                    <h4>Hera Pheri</h4>
+                </div>
+                <div class="movie">
+                    <a href="https://www.youtube.com/watch?v=6FqUN9MO0zc">
+                         <img src="Bhagam Bhaag.jpg" height = "294px"alt="Comedy Movie 2">
+                    </a>
+                <h4>Bhagam Bhaag</h4>
+                </div>
+                <div class="movie">
+                    <a href="https://www.youtube.com/watch?v=zAVmwt_U4c0">
+                       <img src="Dumdaar Khiladi.jpg" height="294px" alt="Comedy Movie 3">
+                    </a>
+                    <h4>Dumdaar Khiladi</h4>
+                </div>
+                <div class="movie">
+                    <a href="https://www.youtube.com/watch?v=IGKMd0bkiuE">
+                         <img src="Welcome Back.jpg" height="294px" alt="Comedy Movie 3">
+                    </a>
+                    <h4>Welcome Back</h4>
+                </div>
+                <div class="movie">
+                    <a href="https://www.youtube.com/watch?v=qQhERcKn-mE">
+                       <img src="The dictator.jpg" height="294px" alt="Comedy Movie 3">
+                    </a>
+                    <h4>The Dictator</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
